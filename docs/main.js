@@ -5,8 +5,6 @@ console.log('main.js');
         const multiplier = document.getElementById( 'multiplier' );
         const multiplicand = document.getElementById( 'multiplicand' );
         const product = document.getElementById( 'product' );
-        
-        
 
         const update = () => {
             product.innerHTML = parseFloat( multiplier.value ) * parseFloat( multiplicand.value );

@@ -16,6 +16,17 @@
         ]
       },
       "vscode": {
+        "settings": {
+          "editor.formatOnSave": true,
+          "editor.insertSpaces": true,
+          "editor.tabSize": 2,
+          "[javascript]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+          },
+          "[html]": {
+            "editor.defaultFormatter": "esbenp.prettier-vscode"
+          }
+        },
         // Add the IDs of extensions you want installed when the container is created.
         "extensions": [
           "esbenp.prettier-vscode"
